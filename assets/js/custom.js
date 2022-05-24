@@ -73,6 +73,30 @@ $('.cs-profil-btn').click( () => {
     }, 800);
 });
 
+$('#btnVid1').click( () => {
+    new Audio(audioUrl2).play();
+
+    setTimeout(function() {
+        window.location.href = "video1.html";
+    }, 800);
+});
+
+$('#btnVid2').click( () => {
+    new Audio(audioUrl2).play();
+
+    setTimeout(function() {
+        window.location.href = "video2.html";
+    }, 800);
+});
+
+$('#btnVid3').click( () => {
+    new Audio(audioUrl2).play();
+
+    setTimeout(function() {
+        window.location.href = "video3.html";
+    }, 800);
+});
+
 $('.cs-btn-back').click( () => {
     new Audio(audioUrl3).play();
 
